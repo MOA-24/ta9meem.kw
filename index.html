@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ta9meemkw — تصاميم مميزة</title>
+  <meta name="description" content="متجر Ta9meemkw للميداليات والستيكرات وبطاقات أعياد الميلاد المخصصة في الكويت">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Cairo:wght@300;400;500;600&family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <div class="logo-emblem">
+          <svg viewBox="0 0 32 32" fill="none">
+            <polygon points="16,3 19.5,11 28,12.5 22,18.5 23.5,27 16,23 8.5,27 10,18.5 4,12.5 12.5,11" fill="#C9A84C" stroke="none"/>
+          </svg>
+        </div>
+        <span class="logo-text">TA9MEEMKW</span>
+      </a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a href="#order" class="nav-cta">اطلب الآن</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" onclick="closeMobile()">Home</a>
+      <a href="#products" onclick="closeMobile()">Products</a>
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#order" onclick="closeMobile()">Order</a>
+      <a href="#contact" onclick="closeMobile()">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        KUWAIT — CUSTOM GIFTS
+      </div>
+      <h1 class="hero-title">
+        تصاميم تُخلّد<br>
+        <em>لحظاتك المميزة</em>
+      </h1>
+      <p class="hero-sub">Medals · Stickers · Birthday Cards<br>مصممة خصيصاً لك بأعلى جودة</p>
+      <div class="hero-actions">
+        <a href="#order" class="btn-primary">اطلب الآن — Order Now</a>
+        <a href="#products" class="btn-ghost">Browse Products ↓</a>
+      </div>
+    </div>
+    <div class="hero-deco">
+      <div class="deco-ring deco-ring-1"></div>
+      <div class="deco-ring deco-ring-2"></div>
+      <div class="deco-ring deco-ring-3"></div>
+    </div>
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">PRODUCTS / منتجاتنا</span>
+        <h2 class="section-title">Our Collection</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="products-grid">
+
+        <div class="product-card" data-delay="0">
+          <div class="card-icon-wrap">
+            <svg class="card-icon" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="28" r="18" stroke="#C9A84C" stroke-width="1.5"/>
+              <circle cx="32" cy="28" r="12" stroke="#C9A84C" stroke-width="0.75" stroke-dasharray="3 3"/>
+              <polygon points="32,20 34,25 39,25 35,28.5 36.5,33.5 32,30.5 27.5,33.5 29,28.5 25,25 30,25" fill="#C9A84C"/>
+              <path d="M26 46 L28 56 L32 52 L36 56 L38 46" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h3>Medals</h3>
+            <p class="card-ar">ميداليات مخصصة</p>
+            <p class="card-desc">Custom medals for events, sports, graduations & more. Premium quality with your unique design.</p>
+            <div class="card-footer">
+              <span class="card-price">From <strong>2 KD</strong></span>
+              <a href="#order" class="card-link">Order →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card featured" data-delay="100">
+          <div class="featured-badge">Most Popular</div>
+          <div class="card-icon-wrap">
+            <svg class="card-icon" viewBox="0 0 64 64" fill="none">
+              <rect x="12" y="12" width="40" height="40" rx="8" stroke="#C9A84C" stroke-width="1.5"/>
+              <circle cx="22" cy="22" r="4" stroke="#C9A84C" stroke-width="1.5"/>
+              <path d="M12 38 L22 28 L30 36 L38 26 L52 38" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+              <path d="M8 8 L56 8 M8 8 L8 56" stroke="#C9A84C" stroke-width="0.5" opacity="0.3"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h3>Stickers</h3>
+            <p class="card-ar">ستيكرات ملصقات</p>
+            <p class="card-desc">High-quality custom stickers in any shape, size, and design. Perfect for branding & gifts.</p>
+            <div class="card-footer">
+              <span class="card-price">From <strong>1 KD</strong></span>
+              <a href="#order" class="card-link">Order →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-delay="200">
+          <div class="card-icon-wrap">
+            <svg class="card-icon" viewBox="0 0 64 64" fill="none">
+              <rect x="10" y="18" width="44" height="32" rx="3" stroke="#C9A84C" stroke-width="1.5"/>
+              <path d="M10 26 L54 26" stroke="#C9A84C" stroke-width="0.75"/>
+              <path d="M32 18 L32 14 M24 18 L24 14 M40 18 L40 14" stroke="#C9A84C" stroke-width="1.5"/>
+              <circle cx="32" cy="14" r="2" fill="#C9A84C"/>
+              <path d="M18 34 L30 34 M18 40 L26 40" stroke="#C9A84C" stroke-width="1"/>
+              <path d="M38 32 L46 32 L46 46 L38 46 Z" stroke="#C9A84C" stroke-width="1"/>
+              <polygon points="42,35 43.5,38.5 47,39 44.5,41.5 45,45 42,43.5 39,45 39.5,41.5 37,39 40.5,38.5" fill="#C9A84C" opacity="0.6"/>
+            </svg>
+          </div>
+          <div class="card-content">
+            <h3>Birthday Cards</h3>
+            <p class="card-ar">بطاقات عيد ميلاد</p>
+            <p class="card-desc">Stunning personalized birthday cards with custom messages, photos, and unique designs.</p>
+            <div class="card-footer">
+              <span class="card-price">From <strong>1.5 KD</strong></span>
+              <a href="#order" class="card-link">Order →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-bg"></div>
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-left">
+          <span class="section-eyebrow">ABOUT / من نحن</span>
+          <h2 class="about-title">تصاميم بلمسة<br><em>كويتية مميزة</em></h2>
+          <p class="about-text">
+            Ta9meemkw هو متجر متخصص في تصميم وطباعة الهدايا المخصصة في الكويت.
+            نصنع ذكريات لا تُنسى من خلال ميداليات وستيكرات وبطاقات مصممة بعناية فائقة لكل مناسبة.
+          </p>
+          <p class="about-text-en">
+            Every piece we create is crafted with attention to detail, high-quality materials, and fast delivery across Kuwait.
+          </p>
+          <a href="#order" class="btn-primary" style="margin-top:2rem;display:inline-block;">اطلب تصميمك الآن</a>
+        </div>
+        <div class="about-right">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-num">500<span>+</span></div>
+              <div class="stat-label">Happy Clients<br>عميل سعيد</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">3</div>
+              <div class="stat-label">Product Types<br>أنواع منتجات</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">24<span>h</span></div>
+              <div class="stat-label">Fast Delivery<br>توصيل سريع</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">100<span>%</span></div>
+              <div class="stat-label">Custom Design<br>تصميم خاص</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER -->
+  <section class="order-section" id="order">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">ORDER / اطلب</span>
+        <h2 class="section-title">Place Your Order</h2>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="order-wrapper">
+        <div class="order-form-col">
+          <div class="order-tabs">
+            <button class="order-tab active" data-tab="form">Order Form</button>
+            <button class="order-tab" data-tab="whatsapp">WhatsApp</button>
+          </div>
+
+          <div class="tab-content active" id="tab-form">
+            <form id="orderForm" class="order-form" onsubmit="submitOrder(event)">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Your Name / الاسم <span class="req">*</span></label>
+                  <input type="text" name="name" placeholder="e.g. Ahmed Al-Mutairi" required>
+                </div>
+                <div class="form-group">
+                  <label>Phone / الهاتف <span class="req">*</span></label>
+                  <input type="tel" name="phone" placeholder="+965 XXXX XXXX" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Product Type / النوع <span class="req">*</span></label>
+                  <select name="product" required>
+                    <option value="" disabled selected>Select a product</option>
+                    <option value="medal">Medal — ميدالية</option>
+                    <option value="sticker">Sticker — ستيكر</option>
+                    <option value="birthday-card">Birthday Card — بطاقة عيد ميلاد</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Quantity / الكمية <span class="req">*</span></label>
+                  <input type="number" name="quantity" placeholder="1" min="1" required>
+                </div>
+              </div>
+              <div class="form-group full">
+                <label>Design Notes / ملاحظات التصميم</label>
+                <textarea name="notes" rows="4" placeholder="Describe your design, colors, text, occasion... / اكتب تفاصيل التصميم المطلوب، الألوان، النص، المناسبة..."></textarea>
+              </div>
+              <button type="submit" class="btn-primary btn-full">
+                <span class="btn-text">Submit Order / أرسل الطلب</span>
+                <span class="btn-icon">→</span>
+              </button>
+              <div class="form-success" id="formSuccess">
+                ✓ تم إرسال طلبك! سنتواصل معك قريباً — Order received! We'll contact you soon.
+              </div>
+            </form>
+          </div>
+
+          <div class="tab-content" id="tab-whatsapp">
+            <div class="wa-card">
+              <div class="wa-icon">
+                <svg viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              </div>
+              <h3>Order via WhatsApp</h3>
+              <p>اضغط الزر أدناه وسيفتح لك واتساب مباشرة مع رسالة جاهزة — Click below to open WhatsApp with a pre-filled message.</p>
+              <a href="https://wa.me/96599280845?text=مرحبا%20Ta9meemkw%20،%20أريد%20طلب%20تصميم%20مخصص.%0A%0AHello%20Ta9meemkw%2C%20I%20would%20like%20to%20place%20a%20custom%20order." target="_blank" class="btn-wa">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                Open WhatsApp — +965 99280845
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-info-col">
+          <div class="info-card">
+            <h3>How it works</h3>
+            <div class="steps">
+              <div class="step">
+                <div class="step-num">01</div>
+                <div><strong>Send your order</strong><br><span>Fill the form or WhatsApp us</span></div>
+              </div>
+              <div class="step">
+                <div class="step-num">02</div>
+                <div><strong>Design preview</strong><br><span>We send you a mockup to approve</span></div>
+              </div>
+              <div class="step">
+                <div class="step-num">03</div>
+                <div><strong>Production</strong><br><span>High-quality print & finish</span></div>
+              </div>
+              <div class="step">
+                <div class="step-num">04</div>
+                <div><strong>Delivery</strong><br><span>Fast delivery across Kuwait</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">CONTACT / تواصل</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="title-line"></div>
+      </div>
+      <div class="contact-grid">
+        <a href="https://www.instagram.com/ta9meem.kw/" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28">
+              <rect x="2" y="2" width="20" height="20" rx="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <div class="contact-label">Instagram</div>
+          <div class="contact-value">@ta9meem.kw</div>
+        </a>
+        <a href="https://wa.me/96599280845" target="_blank" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </div>
+          <div class="contact-label">WhatsApp</div>
+          <div class="contact-value">+965 99280845</div>
+        </a>
+        <div class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+              <circle cx="12" cy="9" r="2.5"/>
+            </svg>
+          </div>
+          <div class="contact-label">Location</div>
+          <div class="contact-value">Kuwait — الكويت</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+              <polygon points="16,3 19.5,11 28,12.5 22,18.5 23.5,27 16,23 8.5,27 10,18.5 4,12.5 12.5,11" fill="#C9A84C"/>
+            </svg>
+            <span>TA9MEEMKW</span>
+          </div>
+          <p>تصاميم مميزة — Custom Gifts Kuwait</p>
+        </div>
+        <div class="footer-links">
+          <a href="#products">Products</a>
+          <a href="#about">About</a>
+          <a href="#order">Order</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/ta9meem.kw/" target="_blank" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://wa.me/96599280845" target="_blank" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Ta9meemkw — All rights reserved. Designed with ♥ in Kuwait</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
